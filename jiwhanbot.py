@@ -5,7 +5,7 @@ import asyncio
 
 client = discord.Client()
 
-token = "ODg0OTY4MjY4NjM5NjQxNjMw.YTgM7Q.9qHSuv9T06nExugn-DOAe4vki8Y"
+token = "ODg0OTY4MjY4NjM5NjQxNjMw.YTgM7Q.wvVkkeI8YwcMdFHw5hk8DTR0T0s"
 
 html = urlopen("https://api.hangang.msub.kr/")
 print (html)
