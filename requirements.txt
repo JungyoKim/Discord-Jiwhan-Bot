@@ -1,2 +1,4 @@
 discord.py==0.6.0
 asyncio==3.4.3
+beautifulsoup4==4.9.3
+urlopen==1.0.0
