@@ -15,7 +15,7 @@ async def on_ready():
 
     print(client.user.name)
     print('지환봇이 작동중입니다')
-    game = discord.Game("ㅅㅅ")
+    game = discord.Game("흠흠")
     await client.change_presence(status=discord.Status.online, activity=game)
 
 @client.event
@@ -24,9 +24,7 @@ async def on_message(message):
         await message.channel.send("https://bit.ly/2WXW5eq")
         await message.channel.send("를 보고싶어")
     if message.content == "나랑친해?":
-        await message.channel.send("헤으응~",tts=True)
-    if message.content == "현타안와?":
-        await message.channel.send("오면좋겠어",tts=True)
+        await message.channel.send("XX",tts=True)
     if message.content == "가장좋아하는 숫자는?":
         await message.channel.send("13",tts=True)
     if message.content == "시간표":
